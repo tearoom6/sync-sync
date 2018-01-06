@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle sync-sync",
+        "command": "sync-sync:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sync-sync",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sync-sync:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
