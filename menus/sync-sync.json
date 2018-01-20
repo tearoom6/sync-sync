@@ -1,5 +1,11 @@
 {
   "context-menu": {
+    ".tree-view": [
+      {
+        "label": "Toggle sync-sync",
+        "command": "sync-sync:toggle"
+      }
+    ],
     "atom-text-editor": [
       {
         "label": "Toggle sync-sync",
