@@ -2,14 +2,14 @@
   "context-menu": {
     ".tree-view": [
       {
-        "label": "Toggle sync-sync",
-        "command": "sync-sync:toggle"
+        "label": "Start SyncSync",
+        "command": "sync-sync:openMainView"
       }
     ],
     "atom-text-editor": [
       {
-        "label": "Toggle sync-sync",
-        "command": "sync-sync:toggle"
+        "label": "Start SyncSync",
+        "command": "sync-sync:openMainView"
       }
     ]
   },
@@ -18,11 +18,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "sync-sync",
+          "label": "SyncSync",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "sync-sync:toggle"
+              "label": "Start SyncSync",
+              "command": "sync-sync:openMainView"
             }
           ]
         }

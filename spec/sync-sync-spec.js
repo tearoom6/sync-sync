@@ -15,7 +15,7 @@ describe('SyncSync', () => {
     activationPromise = atom.packages.activatePackage('sync-sync');
   });
 
-  describe('when the sync-sync:toggle event is triggered', () => {
+  describe('when the sync-sync:openMainView event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
@@ -23,7 +23,7 @@ describe('SyncSync', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'sync-sync:toggle');
+      atom.commands.dispatch(workspaceElement, 'sync-sync:openMainView');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -37,7 +37,7 @@ describe('SyncSync', () => {
 
         let syncSyncPanel = atom.workspace.panelForItem(syncSyncElement);
         expect(syncSyncPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'sync-sync:toggle');
+        atom.commands.dispatch(workspaceElement, 'sync-sync:openMainView');
         expect(syncSyncPanel.isVisible()).toBe(false);
       });
     });
@@ -55,7 +55,7 @@ describe('SyncSync', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'sync-sync:toggle');
+      atom.commands.dispatch(workspaceElement, 'sync-sync:openMainView');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('SyncSync', () => {
         // Now we can test for view visibility
         let syncSyncElement = workspaceElement.querySelector('.sync-sync');
         expect(syncSyncElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'sync-sync:toggle');
+        atom.commands.dispatch(workspaceElement, 'sync-sync:openMainView');
         expect(syncSyncElement).not.toBeVisible();
       });
     });

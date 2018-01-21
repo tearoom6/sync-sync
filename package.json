@@ -5,7 +5,7 @@
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "sync-sync:toggle"
+    "atom-workspace": "sync-sync:openMainView"
   },
   "repository": "https://github.com/atom/sync-sync",
   "license": "MIT",
