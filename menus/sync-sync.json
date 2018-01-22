@@ -5,28 +5,6 @@
         "label": "Start SyncSync",
         "command": "sync-sync:openMainView"
       }
-    ],
-    "atom-text-editor": [
-      {
-        "label": "Start SyncSync",
-        "command": "sync-sync:openMainView"
-      }
     ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "SyncSync",
-          "submenu": [
-            {
-              "label": "Start SyncSync",
-              "command": "sync-sync:openMainView"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  }
 }
