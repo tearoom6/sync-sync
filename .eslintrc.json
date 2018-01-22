@@ -5,6 +5,7 @@
     "no-unused-vars": [0],
     "no-console": [0],
     "react/jsx-filename-extension": [0],
-    "react/no-string-refs": [0]
+    "react/no-string-refs": [0],
+    "jsx-a11y/tabindex-no-positive": [0]
   }
 }
