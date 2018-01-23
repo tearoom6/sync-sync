@@ -1,9 +1,12 @@
 {
   "name": "sync-sync",
   "main": "./lib/sync-sync",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Syncing files with web documents services",
-  "keywords": ["Sync", "Qiita"],
+  "keywords": [
+    "Sync",
+    "Qiita"
+  ],
   "activationCommands": {
     "atom-workspace": "sync-sync:openMainView"
   },
