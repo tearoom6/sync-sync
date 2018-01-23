@@ -1,19 +1,27 @@
 {
   "name": "sync-sync",
   "main": "./lib/sync-sync",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "version": "0.1.0",
+  "description": "Syncing files with web documents services",
+  "keywords": ["Sync", "Qiita"],
   "activationCommands": {
-    "atom-workspace": "sync-sync:toggle"
+    "atom-workspace": "sync-sync:openMainView"
   },
-  "repository": "https://github.com/atom/sync-sync",
+  "repository": "https://github.com/tearoom6/sync-sync",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fs-plus": "^3.0.1",
+    "node-fetch": "^1.7.3"
+  },
   "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
     "etch": "^0.12.7"
   }
 }

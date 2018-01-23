@@ -1,26 +1,10 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    ".tree-view": [
       {
-        "label": "Toggle sync-sync",
-        "command": "sync-sync:toggle"
+        "label": "Start SyncSync",
+        "command": "sync-sync:openMainView"
       }
     ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "sync-sync",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "sync-sync:toggle"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  }
 }
