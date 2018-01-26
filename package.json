@@ -16,6 +16,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "etch": "^0.12.7",
     "fs-plus": "^3.0.1",
     "node-fetch": "^1.7.3"
   },
@@ -24,7 +25,6 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.5.1",
-    "etch": "^0.12.7"
+    "eslint-plugin-react": "^7.5.1"
   }
 }
