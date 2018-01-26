@@ -1,7 +1,7 @@
 {
   "extends": "airbnb",
   "rules": {
-    "max-len": [ "error", { "code": 120 } ],
+    "max-len": [ "error", { "code": 140 } ],
     "semi": [0],
     "no-unused-vars": [0],
     "no-console": [0],
