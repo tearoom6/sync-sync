@@ -5,7 +5,10 @@
   "description": "Syncing files with web documents services",
   "keywords": [
     "Sync",
-    "Qiita"
+    "Markdown",
+    "Qiita",
+    "esa.io",
+    "DocBase"
   ],
   "activationCommands": {
     "atom-workspace": "sync-sync:openMainView"
