@@ -21,6 +21,7 @@
   "dependencies": {
     "etch": "^0.12.7",
     "fs-plus": "^3.0.1",
+    "json-stable-stringify": "^1.0.1",
     "node-fetch": "^1.7.3"
   },
   "devDependencies": {
