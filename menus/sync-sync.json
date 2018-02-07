@@ -2,9 +2,42 @@
   "context-menu": {
     ".tree-view": [
       {
-        "label": "Start SyncSync",
-        "command": "sync-sync:openMainView"
+        "label": "Sync-Sync",
+        "submenu": [
+          {
+            "label": "Import/Export",
+            "command": "sync-sync:openMainView"
+          },
+          {
+            "label": "Rename",
+            "command": "sync-sync:rename"
+          },
+          {
+            "label": "Delete",
+            "command": "sync-sync:delete"
+          },
+          {
+            "label": "Settings",
+            "command": "sync-sync:openSettingsView"
+          }
+        ]
       }
     ]
-  }
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Sync-Sync",
+          "submenu": [
+            {
+              "label": "Settings",
+              "command": "sync-sync:openSettingsView"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
