@@ -2,7 +2,7 @@
   "context-menu": {
     ".tree-view": [
       {
-        "label": "Start SyncSync",
+        "label": "Start Sync-Sync",
         "command": "sync-sync:openMainView"
       }
     ]

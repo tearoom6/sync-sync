@@ -12,22 +12,22 @@ Currently, you can sync with web services below:
 
 ### Sync whole list
 
-Select a directory in the tree-view and click [Start SyncSync] in the context menu.
+Select a directory in the tree-view and click [Start Sync-Sync] in the context menu.
 Then execute [Import].
 
 ### Sync each post
 
-Select a synced file in the tree-view and click [Start SyncSync] in the context menu.
+Select a synced file in the tree-view and click [Start Sync-Sync] in the context menu.
 Then execute [Import].
 
 ### Create new post
 
-Select a not-synced file in the tree-view and click [Start SyncSync] in the context menu.
+Select a not-synced file in the tree-view and click [Start Sync-Sync] in the context menu.
 Then execute [Export].
 
 ### Update post
 
-Select a synced file in the tree-view and click [Start SyncSync] in the context menu.
+Select a synced file in the tree-view and click [Start Sync-Sync] in the context menu.
 Then execute [Export].
 
 
