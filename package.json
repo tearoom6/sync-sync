@@ -11,8 +11,12 @@
     "DocBase"
   ],
   "activationCommands": {
-    "atom-workspace": "sync-sync:openMainView",
-    "atom-workspace": "sync-sync:openSettingsView"
+    "atom-workspace": [
+      "sync-sync:openMainView",
+      "sync-sync:rename",
+      "sync-sync:delete",
+      "sync-sync:openSettingsView"
+    ]
   },
   "repository": "https://github.com/tearoom6/sync-sync",
   "license": "MIT",

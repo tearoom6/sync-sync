@@ -9,6 +9,14 @@
             "command": "sync-sync:openMainView"
           },
           {
+            "label": "Rename",
+            "command": "sync-sync:rename"
+          },
+          {
+            "label": "Delete",
+            "command": "sync-sync:delete"
+          },
+          {
             "label": "Settings",
             "command": "sync-sync:openSettingsView"
           }
