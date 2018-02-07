@@ -2,9 +2,34 @@
   "context-menu": {
     ".tree-view": [
       {
-        "label": "Start Sync-Sync",
-        "command": "sync-sync:openMainView"
+        "label": "Sync-Sync",
+        "submenu": [
+          {
+            "label": "Import/Export",
+            "command": "sync-sync:openMainView"
+          },
+          {
+            "label": "Settings",
+            "command": "sync-sync:openSettingsView"
+          }
+        ]
       }
     ]
-  }
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Sync-Sync",
+          "submenu": [
+            {
+              "label": "Settings",
+              "command": "sync-sync:openSettingsView"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
