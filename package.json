@@ -1,7 +1,7 @@
 {
   "name": "sync-sync",
   "main": "./lib/sync-sync",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Syncing files with web documents services",
   "keywords": [
     "Sync",
