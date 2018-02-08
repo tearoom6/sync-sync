@@ -1,6 +1,9 @@
 # sync-sync
 
 sync-sync is an Atom package for managing posts of web services of documentation.
+
+https://atom.io/packages/sync-sync
+
 Currently, you can sync with web services below:
 
 - [Qiita](https://qiita.com)
