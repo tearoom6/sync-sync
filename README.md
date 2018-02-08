@@ -38,7 +38,8 @@ Then execute [Export].
 
 Open the package settings. You can change the configs below:
 
-- [Whether or not to save secrets info] : You can avoid saving access token in the config file.
+- [Save secrets info] : You can avoid saving access token in the config file.
+- [Keep file path on importing] : You can keep already-synced file path on importing.
 
 
 ## Documents
