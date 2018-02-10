@@ -4,11 +4,13 @@
   "version": "1.2.6",
   "description": "Syncing files with web documents services",
   "keywords": [
-    "Sync",
+    "Atom",
+    "document",
     "Markdown",
     "Qiita",
     "esa.io",
-    "DocBase"
+    "DocBase",
+    "Confluence"
   ],
   "activationCommands": {
     "atom-workspace": [
