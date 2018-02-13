@@ -10,7 +10,8 @@
     "Qiita",
     "esa.io",
     "DocBase",
-    "Confluence"
+    "Confluence",
+    "Backlog"
   ],
   "activationCommands": {
     "atom-workspace": [
