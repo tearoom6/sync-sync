@@ -134,6 +134,10 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
+atom@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/atom/-/atom-1.1.0.tgz#3b56fd5ff7b2bbfcc686f38cfb80f067a2b7aedc"
+
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"

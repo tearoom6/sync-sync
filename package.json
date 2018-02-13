@@ -27,6 +27,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom": "^1.1.0",
     "etch": "^0.12.7",
     "fs-extra": "^5.0.0",
     "fs-plus": "^3.0.1",
@@ -42,5 +43,8 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1"
+  },
+  "scripts": {
+    "lint": "eslint ."
   }
 }
