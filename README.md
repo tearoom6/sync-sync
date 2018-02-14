@@ -10,6 +10,7 @@ Currently, you can sync with web services below:
 - [esa.io](https://esa.io/)
 - [DocBase](https://docbase.io/)
 - [Confluence](https://www.atlassian.com/software/confluence)
+- [Backlog](https://backlog.com/)
 
 
 ## Usage
@@ -52,6 +53,7 @@ API references of web services:
 - [DocBase](https://help.docbase.io/posts/45703)
 - [Confluence (Server)](https://docs.atlassian.com/atlassian-confluence/REST/latest-server)
 - [Confluence (Cloud)](https://docs.atlassian.com/atlassian-confluence/REST/latest)
+- [Backlog](https://developer.nulab-inc.com/docs/backlog/)
 
 About this package:
 
