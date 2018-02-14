@@ -9,11 +9,11 @@
             "command": "sync-sync:openMainView"
           },
           {
-            "label": "Rename",
+            "label": "Rename with Syncing",
             "command": "sync-sync:rename"
           },
           {
-            "label": "Delete",
+            "label": "Delete with Syncing",
             "command": "sync-sync:delete"
           },
           {
