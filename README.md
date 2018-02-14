@@ -17,28 +17,35 @@ Currently, you can sync with web services below:
 
 ### Sync whole list
 
-Select a directory in the tree-view and click [Start Sync-Sync] in the context menu.
+Select a directory in the tree-view and click [Sync-Sync] > [Import/Export] in the context menu.
 Then execute [Import].
 
 ### Sync each post
 
-Select a synced file in the tree-view and click [Start Sync-Sync] in the context menu.
+Select a synced file in the tree-view and click [Sync-Sync] > [Import/Export] in the context menu.
 Then execute [Import].
 
 ### Create new post
 
-Select a not-synced file in the tree-view and click [Start Sync-Sync] in the context menu.
+Select a not-synced file in the tree-view and click [Sync-Sync] > [Import/Export] in the context menu.
 Then execute [Export].
 
 ### Update post
 
-Select a synced file in the tree-view and click [Start Sync-Sync] in the context menu.
+Select a synced file in the tree-view and click [Sync-Sync] > [Import/Export] in the context menu.
 Then execute [Export].
 
+### Rename with syncing state
+
+Select a synced file/directory in the tree-view and click [Sync-Sync] > [Rename with Syncing] in the context menu.
+
+### Delete with syncing state
+
+Select a synced file/directory in the tree-view and click [Sync-Sync] > [Delete with Syncing] in the context menu.
 
 ## Configuration
 
-Open the package settings. You can change the configs below:
+Open the package settings ([Sync-Sync] > [Settings]). You can change the configs below:
 
 - [Save secrets info] : You can avoid saving access token in the config file.
 - [Keep file path on importing] : You can keep already-synced file path on importing.
