@@ -64,4 +64,4 @@ API references of web services:
 
 About this package:
 
-- [Qiita記事をAtomで管理する](https://qiita.com/tearoom6/items/9518195fcd92bb87b9d0) (Japanese only)
+- [ドキュメント管理の将来設計](https://qiita.com/tearoom6/items/9518195fcd92bb87b9d0) (Japanese only)
