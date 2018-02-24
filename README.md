@@ -7,8 +7,10 @@ https://atom.io/packages/sync-sync
 Currently, you can sync with web services below:
 
 - [Qiita](https://qiita.com)
+- [Qiita:Team](https://teams.qiita.com/)
 - [esa.io](https://esa.io/)
 - [DocBase](https://docbase.io/)
+- [WordPress.com](https://wordpress.com/)
 - [Confluence](https://www.atlassian.com/software/confluence)
 - [Backlog](https://backlog.com/)
 
@@ -55,9 +57,10 @@ Open the package settings ([Sync-Sync] > [Settings]). You can change the configs
 
 API references of web services:
 
-- [Qiita](https://qiita.com/api/v2/docs#%E6%8A%95%E7%A8%BF)
+- [Qiita/Qiita:Team](https://qiita.com/api/v2/docs)
 - [esa.io](https://docs.esa.io/posts/102)
 - [DocBase](https://help.docbase.io/posts/45703)
+- [WordPress.com](https://developer.wordpress.com/docs/api/)
 - [Confluence (Server)](https://docs.atlassian.com/atlassian-confluence/REST/latest-server)
 - [Confluence (Cloud)](https://docs.atlassian.com/atlassian-confluence/REST/latest)
 - [Backlog](https://developer.nulab-inc.com/docs/backlog/)
