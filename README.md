@@ -11,6 +11,7 @@ Currently, you can sync with web services below:
 - [esa.io](https://esa.io/)
 - [DocBase](https://docbase.io/)
 - [WordPress.com](https://wordpress.com/)
+- [WordPress.org](https://wordpress.org/)
 - [Confluence](https://www.atlassian.com/software/confluence)
 - [Backlog](https://backlog.com/)
 
@@ -61,6 +62,7 @@ API references of web services:
 - [esa.io](https://docs.esa.io/posts/102)
 - [DocBase](https://help.docbase.io/posts/45703)
 - [WordPress.com](https://developer.wordpress.com/docs/api/)
+- [WordPress.org](https://developer.wordpress.org/rest-api/)
 - [Confluence (Server)](https://docs.atlassian.com/atlassian-confluence/REST/latest-server)
 - [Confluence (Cloud)](https://docs.atlassian.com/atlassian-confluence/REST/latest)
 - [Backlog](https://developer.nulab-inc.com/docs/backlog/)
