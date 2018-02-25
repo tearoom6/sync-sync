@@ -2,6 +2,7 @@
   "extends": "airbnb",
   "rules": {
     "function-paren-newline": [ "error", "consistent" ],
+    "key-spacing": [ "error", { "mode": "minimum" } ],
     "max-len": [ "error", { "code": 140 } ],
     "semi": [0],
     "no-unused-vars": [0],
