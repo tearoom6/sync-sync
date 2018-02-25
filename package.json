@@ -1,7 +1,7 @@
 {
   "name": "sync-sync",
   "main": "./lib/sync-sync",
-  "version": "1.2.10",
+  "version": "1.2.11",
   "description": "Syncing files with web documents services",
   "keywords": [
     "Atom",
