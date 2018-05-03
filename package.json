@@ -12,7 +12,8 @@
     "esa.io",
     "DocBase",
     "Confluence",
-    "Backlog"
+    "Backlog",
+    "Hatena"
   ],
   "activationCommands": {
     "atom-workspace": [
