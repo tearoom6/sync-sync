@@ -1,6 +1,6 @@
 # sync-sync
 
-sync-sync is an Atom package for managing posts of web services of documentation.
+sync-sync is an Atom package for managing posts & documents of blog/collaboration services.
 
 https://atom.io/packages/sync-sync
 
@@ -14,6 +14,7 @@ Currently, you can sync with web services below:
 - [WordPress.org](https://wordpress.org/)
 - [Confluence](https://www.atlassian.com/software/confluence)
 - [Backlog](https://backlog.com/)
+- [Hatena Blog](http://hatenablog.com/)
 
 
 ## Usage
@@ -66,6 +67,7 @@ API references of web services:
 - [Confluence (Server)](https://docs.atlassian.com/atlassian-confluence/REST/latest-server)
 - [Confluence (Cloud)](https://docs.atlassian.com/atlassian-confluence/REST/latest)
 - [Backlog](https://developer.nulab-inc.com/docs/backlog/)
+- [Hatena Blog](http://developer.hatena.ne.jp/ja/documents/blog/apis/atom)
 
 About this package:
 
