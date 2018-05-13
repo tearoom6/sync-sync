@@ -36,6 +36,48 @@
     width: 75%;
   }
 
+  // See [コピペでできる！cssとhtmlのみで作るアコーディオンメニュー | copypet.jp｜パーツで探す、web制作に使えるコピペサイト。](https://copypet.jp/630/).
+  .accordion {
+    input.label {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+    }
+    label.label {
+      font-weight: bold;
+      position: relative;
+      display: block;
+      cursor: pointer;
+    }
+    .content {
+      overflow: hidden;
+      max-height: 0;
+      -webkit-transition: max-height 0.35s;
+      transition: max-height 0.35s;
+    }
+    input.label:checked ~ .content {
+      max-height: 100em; // Set enough height.
+    }
+    label.label::after {
+      position: absolute;
+      top: -0.4em;
+      right: 0;
+      display: block;
+      width: 2em;
+      height: 2em;
+      font-size: 2em;
+      -webkit-transition: all 0.35s;
+      transition: all 0.35s;
+      text-align: center;
+    }
+    input.label[type=checkbox] + label::after {
+      content: '+';
+    }
+    input.label[type=checkbox]:checked + label::after {
+      transform: rotate(315deg);
+    }
+  }
+
   .message {
     margin-top: 5px;
     margin-bottom: 15px;
