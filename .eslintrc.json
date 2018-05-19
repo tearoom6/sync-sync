@@ -1,5 +1,9 @@
 {
   "extends": "airbnb",
+  "globals": {
+    "atom": true,
+    "electron": true
+  },
   "rules": {
     "arrow-parens": [ "error", "as-needed" ],
     "comma-dangle": [ "error", "only-multiline" ],
@@ -11,6 +15,8 @@
     "no-console": [0],
     "no-plusplus": [0],
     "no-underscore-dangle": [ "error", { "allow": ["_links"] } ],
+    "import/extensions": [2, "never"],
+    "import/no-unresolved": [2, { "ignore": ["atom", "electron", "jasmine"] }],
     "react/jsx-filename-extension": [0],
     "react/no-string-refs": [0],
     "jsx-a11y/tabindex-no-positive": [0]
