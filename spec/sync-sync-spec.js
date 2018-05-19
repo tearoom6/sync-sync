@@ -1,7 +1,5 @@
 'use babel'
 
-/* global atom, jasmine */
-
 import SyncSync from '../lib/sync-sync'
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
