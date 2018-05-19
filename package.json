@@ -13,7 +13,8 @@
     "DocBase",
     "Confluence",
     "Backlog",
-    "Hatena"
+    "Hatena",
+    "Blogger"
   ],
   "activationCommands": {
     "atom-workspace": [
