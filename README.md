@@ -15,6 +15,7 @@ Currently, you can sync with web services below:
 - [Backlog](https://backlog.com/)
 - [Hatena Blog](http://hatenablog.com/)
 - [Blogger](https://www.blogger.com/)
+- [Medium](https://medium.com/)
 
 
 ## Usage
@@ -69,6 +70,7 @@ API references of web services:
 - [Backlog](https://developer.nulab-inc.com/docs/backlog/)
 - [Hatena Blog](http://developer.hatena.ne.jp/ja/documents/blog/apis/atom)
 - [Blogger](https://developers.google.com/blogger/)
+- [Medium](https://github.com/Medium/medium-api-docs)
 
 See also:
 
