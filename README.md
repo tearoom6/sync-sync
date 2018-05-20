@@ -18,7 +18,7 @@ Currently, you can sync with web services below:
 - [Medium](https://medium.com/)
 
 
-## Usage
+## Features
 
 ### Sync whole list
 
@@ -47,6 +47,12 @@ Select a synced file/directory in the tree-view and click [Sync-Sync] > [Rename 
 ### Delete with syncing state
 
 Select a synced file/directory in the tree-view and click [Sync-Sync] > [Delete with Syncing] in the context menu.
+
+
+## Usage
+
+See [here](https://tearoom6.github.io/sync-sync/).
+
 
 ## Configuration
 
