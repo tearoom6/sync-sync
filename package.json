@@ -14,7 +14,8 @@
     "Confluence",
     "Backlog",
     "Hatena",
-    "Blogger"
+    "Blogger",
+    "Medium"
   ],
   "activationCommands": {
     "atom-workspace": [
