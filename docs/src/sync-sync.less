@@ -1,1 +1,189 @@
-../../styles/sync-sync.less
+// This is copied style file.
+// Symlink cannot be used for GitHub pages, so i copied it from <PROJECT>/styles/sync-sync.less
+//
+// See https://help.github.com/articles/page-build-failed-symlink-does-not-exist-within-your-site-s-repository/.
+
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.sync-sync {
+  padding: 10px;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+
+  label {
+    color: white;
+    width: 100%;
+  }
+  label > span {
+    display: inline-block;
+    width: 20%;
+  }
+  input[type=text] {
+    color: black;
+    width: 80%;
+  }
+  select {
+    color: black;
+    width: 80%;
+  }
+  button {
+    color: black;
+    width: 50%;
+  }
+  progress {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 75%;
+  }
+
+  // See [コピペでできる！cssとhtmlのみで作るアコーディオンメニュー | copypet.jp｜パーツで探す、web制作に使えるコピペサイト。](https://copypet.jp/630/).
+  .accordion {
+    input.label {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+    }
+    label.label {
+      font-weight: bold;
+      position: relative;
+      display: block;
+      cursor: pointer;
+    }
+    .content {
+      overflow: hidden;
+      max-height: 0;
+      -webkit-transition: max-height 0.35s;
+      transition: max-height 0.35s;
+    }
+    input.label:checked ~ .content {
+      max-height: 100em; // Set enough height.
+    }
+    label.label::after {
+      position: absolute;
+      top: -0.4em;
+      right: 0;
+      display: block;
+      width: 2em;
+      height: 2em;
+      font-size: 2em;
+      -webkit-transition: all 0.35s;
+      transition: all 0.35s;
+      text-align: center;
+    }
+    input.label[type=checkbox] + label::after {
+      content: '+';
+    }
+    input.label[type=checkbox]:checked + label::after {
+      transform: rotate(315deg);
+    }
+  }
+
+  .message {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  .progress {
+    span {
+      color: white;
+    }
+  }
+
+  .service {
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  .qiita {
+    background-color: #74C23A;
+
+    h2,h3 {
+      color: white;
+    }
+  }
+
+  .qiita-team {
+    background-color: #5489C0;
+
+    h2,h3 {
+      color: white;
+    }
+  }
+
+  .esa {
+    background-color: #449893;
+
+    h2,h3 {
+      color: white;
+    }
+  }
+
+  .docbase {
+    background-color: #222F3E;
+
+    h2,h3 {
+      color: white;
+    }
+  }
+
+  .wordpress-com {
+    background-color: #3885B9;
+
+    h2,h3 {
+      color: white;
+    }
+  }
+
+  .wordpress-org {
+    background-color: #24282D;
+
+    h2,h3 {
+      color: white;
+    }
+  }
+
+  .confluence {
+    background-color: #1A53C5;
+
+    h2,h3 {
+      color: white;
+    }
+  }
+
+  .backlog {
+    background-color: #6CCBA2;
+
+    h2,h3 {
+      color: white;
+    }
+  }
+
+  .hatena {
+    background-color: #2C71BF;
+
+    h2,h3 {
+      color: white;
+    }
+  }
+
+  .blogger {
+    background-color: #F08633;
+
+    h2,h3 {
+      color: white;
+    }
+  }
+
+  .medium {
+    background-color: #292929;
+
+    h2,h3 {
+      color: white;
+    }
+  }
+}
