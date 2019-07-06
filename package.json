@@ -32,22 +32,22 @@
   },
   "dependencies": {
     "etch": "^0.14.0",
-    "fs-extra": "^6.0.1",
-    "fs-plus": "^3.0.2",
-    "js-beautify": "^1.7.5",
+    "fs-extra": "^8.1.0",
+    "fs-plus": "^3.1.1",
+    "js-beautify": "^1.10.0",
     "json-stable-stringify": "^1.0.1",
-    "node-fetch": "^2.1.2",
-    "turndown": "^4.0.2",
-    "url-search-params": "^0.10.0",
+    "node-fetch": "^2.6.0",
+    "turndown": "^5.0.3",
+    "url-search-params": "^1.1.0",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.8.2",
-    "prettier": "^1.12.1"
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "prettier": "^1.18.2"
   },
   "scripts": {
     "lint": "eslint ."
