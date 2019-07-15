@@ -6,8 +6,8 @@
   "author": "tearoom6",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.5.0",
-    "@babel/preset-env": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
     "@babel/preset-react": "^7.0.0",
     "babel": "^6.23.0",
     "babel-loader": "^8.0.6",
@@ -15,12 +15,12 @@
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "style-loader": "^0.23.1",
-    "webpack": "^4.35.2",
-    "webpack-cli": "^3.3.5"
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
   },
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "semantic-ui-react": "^0.87.2"
+    "semantic-ui-react": "^0.87.3"
   }
 }
